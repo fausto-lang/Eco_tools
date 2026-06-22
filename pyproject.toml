@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pibble"
 version = "0.1.0"
-description = "Librería de asistencia inteligente con IA y procesamiento de texto"
+description = "Herramientas de asistencia inteligente y gramática para EcoDrop"
 dependencies = [
     "google-genai",
     "python-dotenv",
     "pillow",
     "requests",
-    "python-magic"
+    "python-magic",
+    "pydub"
 ]
